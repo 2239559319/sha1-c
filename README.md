@@ -5,7 +5,7 @@ sha1 implement by c language. a light, simple sha1 library
 ## usage
 
 ```c
-#include "sha1.hpp"
+#include "sha1.h"
 #include <string.h>
 
 int main()

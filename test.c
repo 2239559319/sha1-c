@@ -1,4 +1,4 @@
-#include "sha1.hpp"
+#include "sha1.h"
 #include <string.h>
 
 #define TO_STR(out_str, out)                                                   \
@@ -57,7 +57,6 @@ void test4()
     TO_STR(hex_str, out)
     assert(strcmp(hex_str, "01b307acba4f54f55aafc33bb06bbbf6ca803e9a") == 0)
 }
-
 
 int main()
 {

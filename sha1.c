@@ -1,11 +1,4 @@
-#pragma once
-#include <stdint.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-#define SHA1CircularShift(bits, word)                                          \
-    (((word) << (bits)) | ((word) >> (32 - (bits))))
+#include "sha1.h"
 
 void sha1(uint8_t *input, size_t length, uint8_t *output)
 {
